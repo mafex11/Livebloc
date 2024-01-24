@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #111111;
+    color: white;
+}
+.NavTop{
+    width: 100%;
+    height: 90px;
+    /* backdrop-filter: blur(20px); */
+}
+.logo{
+    position: absolute;
+    margin: 25px 5px 0 25px ;
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    cursor: pointer;
+}
+button{
+    background-color: white;
+    position: fixed;
+    margin-left: 1800px;
+    margin-top: 25px;
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: 0.09s ease-in-out;
+    transform: scale(0.9);
+    font-weight:600;
+    overflow: hidden;
+
+
+    
+}
+.otherbtn1 {
+    position: fixed;
+    margin-left:680px;
+    background-color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    margin-top: -30px;
+    text-align: center;
+    width: 120px;
+    transition: 0.09s ease-in-out;
+    cursor: pointer;
+    font-weight:600;
+    color: #8632E6;
+    color: black;
+    transform: scale(0.8);
+    font-size:16px;
+    line-height: 15px;
+
+
+}
+.otherbtn2 {
+    position: fixed;
+    margin-left: 570px;
+    color: #8632E6;
+    padding: 10px 0px 10px 0px;
+    margin-top: -30px;
+    text-align: center;
+    width: 120px;
+    transition: 0.09s ease-in-out;
+    cursor: pointer;
+    font-weight:600;
+    color: black;
+    transform: scale(0.8);
+    font-size:16px;
+    line-height: 15px;
+
+
+
+}
+.otherbtn3 {
+    position: fixed;
+    margin-left:460px;
+    color: #8632E6;
+    padding: 10px 0px 10px 0px;
+    margin-top: -30px;
+    text-align: center;
+    width: 120px;
+    transition: 0.09s ease-in-out;
+    cursor: pointer;
+    font-weight:600;
+    color: black;
+    transform: scale(0.8);
+    font-size:16px
+}
+#Options{
+    position: absolute;
+    margin-top: -35px;
+    margin-left:800px ;
+}
+#Options >  a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    
+}
+.otherbtn1:hover,.otherbtn2:hover,.otherbtn3:hover{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    font-size: 17px;
+    box-shadow: 5px 5px 20px #8632E6,-5px 10px 100px purple;
+
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 5px 5px 20px #8632E6,-5px 10px 100px purple;
+
+}
